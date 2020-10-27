@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yuNDLsVUaELZsleJS/SOxxMI1HYc/FnvOhZ6y8/b+0CnO9rf6gi0HvMgDeDtMqBDOpOOfcON/nMM0owH4DDSMg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adity\\OneDrive\\Documents\\GitHub\\BhaviCode\\BibtexParser\\BlazorAppparser\\Server\\BlazorAppparser.Server.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adity\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\3.2.0\\microsoft.aspnetcore.components.webassembly.server.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

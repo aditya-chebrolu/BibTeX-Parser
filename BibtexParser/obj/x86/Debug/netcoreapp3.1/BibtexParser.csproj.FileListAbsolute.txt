@@ -1,0 +1,12 @@
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\bin\x86\Debug\netcoreapp3.1\BibtexParser.exe
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\bin\x86\Debug\netcoreapp3.1\BibtexParser.deps.json
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\bin\x86\Debug\netcoreapp3.1\BibtexParser.runtimeconfig.json
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\bin\x86\Debug\netcoreapp3.1\BibtexParser.runtimeconfig.dev.json
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\bin\x86\Debug\netcoreapp3.1\BibtexParser.dll
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\bin\x86\Debug\netcoreapp3.1\BibtexParser.pdb
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\obj\x86\Debug\netcoreapp3.1\BibtexParser.csproj.CoreCompileInputs.cache
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\obj\x86\Debug\netcoreapp3.1\BibtexParser.AssemblyInfoInputs.cache
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\obj\x86\Debug\netcoreapp3.1\BibtexParser.AssemblyInfo.cs
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\obj\x86\Debug\netcoreapp3.1\BibtexParser.dll
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\obj\x86\Debug\netcoreapp3.1\BibtexParser.pdb
+C:\Users\BHAVI_CyberPowerPC1\source\repos\BibtexParser\BibtexParser\obj\x86\Debug\netcoreapp3.1\BibtexParser.genruntimeconfig.cache

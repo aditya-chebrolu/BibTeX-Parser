@@ -1,0 +1,24 @@
+﻿@page "/"
+
+<h2><center>Welcome to the BibTeX Parser.</center></h2>
+
+<p><center>Either input a ".bib" file or input the contents of a ".bib" file in the textbox.</center></p>
+<hr />
+<div>
+    <center>
+        <p><b>Choose a File</b></p>
+        <input type="file" name="file" id="file" class="inputfile" />
+    </center>
+</div>
+<hr />
+
+<div>
+    <center>
+        <p><b>Input BibTeX Entries Below</b></p>
+        <textarea name="myTextBox" cols="80" rows="10">
+        </textarea>
+    </center>
+</div>
+
+@code
+

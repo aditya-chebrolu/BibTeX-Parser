@@ -1,0 +1,60 @@
+﻿@using System.IO;
+@using PDP.Aoraki.BibtexLib.bitRebels; 
+@using System.Text; 
+
+@page "/"
+
+<h2><center>Welcome to the BibTeX Parser.</center></h2>
+
+<p><center>Either input a ".bib" file (found on "FileInput" page) or input the contents of a ".bib" file in the textbox.</center></p>
+<hr />
+
+<div>
+    <center>
+        <p><b>Input BibTeX Entries Below</b></p>
+        <textarea @bind="Description" cols="200" rows="20" />
+        <br /> <br />
+        <button class="btn btn-primary" @onclick="Parse">Submit</button>
+        <hr />
+        <br /> <br /> <br /> <br />
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Number</th>
+                    <th>Type</th>
+                    <th>Keyword</th>
+                    <th>Entry</th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < entries.Count(); i++)
+                {
+                    <tr>
+                        <td>@i</td>
+                        <td>@entries[i].Type</td>
+                        <td>@entries[i].Keyword</td>
+                        <td>@entries[i].GetBibTeXEntry()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </center>
+</div>
+
+@code {
+    private string Description { get; set; }
+    private List<BibTeXEntry> entries = new List<BibTeXEntry>();
+    //private BibTeXFile file { get; set; }
+
+    private void Parse()
+    {
+        byte[] byteArray = Encoding.ASCII.GetBytes(Description);
+        MemoryStream stream = new MemoryStream(byteArray);
+        StreamReader reader = new StreamReader(stream, System.Text.Encoding.UTF8, true);
+
+        BibTexParser parser = new BibTexParser(reader);
+        entries = parser.BibFile.Entries;
+    }
+
+}
